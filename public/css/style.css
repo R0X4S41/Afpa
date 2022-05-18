@@ -1,0 +1,38 @@
+/*	style.css		*/
+nav {
+	background-color: #FF5133;
+	padding: 30px 60px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav li {
+	list-style: none;
+}
+nav li a {
+	color: #F09773;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 15px;
+}
+nav li a:hover {
+	color: #fff;
+}
+/*
+ *
+ */
+.avatar-ctn {
+	background-color: #FF5133;	
+}
+.avatar {
+	width: 40%;
+	border-bottom: 3px solid gba(0, 0, 0, 0.1);
+}
+
+
+
